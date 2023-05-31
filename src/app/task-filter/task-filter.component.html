@@ -1,0 +1,5 @@
+<div>
+  <button [class.active]="selectedFilter === 'all'" (click)="onFilterChange('all')">All</button>
+  <button [class.active]="selectedFilter === 'completed'" (click)="onFilterChange('completed')">Completed</button>
+  <button [class.active]="selectedFilter === 'incomplete'" (click)="onFilterChange('incomplete')">Incomplete</button>
+</div>
